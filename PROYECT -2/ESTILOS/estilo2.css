@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Poppins*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ecd6c0;
+}
+.contener-gen{
+    display: flex;
+    justify-content: center;
+}
+
+.contain-reg{
+    display: flex;
+    justify-content: end;
+}
+.contain-reg a{
+    background-color: white;
+    padding: 2vh 3vh;
+    text-decoration: none;
+    margin: 2vh;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 2vh;
+    border-radius: 1vh;
+    font-weight:500;
+}
+
+.form-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0 6% 0;
+}
+
+.form-contain form{
+    font-family: 'Poppins';
+    background-color: white;
+    padding: 12vh 10vh;
+    padding-right: 10vh;
+    border-radius: 2vh 0 0 2vh;
+}
+.form-contain form h2{
+    margin: 2vh 0;
+    font-size: 3vh;
+}
+.form-contain form label{
+    margin: 1vh 1vh;
+}
+.form-contain form input{
+    margin: 1vh 1vh;
+    padding: 1.2vh 3vh;
+    padding-right: 12.5vh;
+    background-color:#d0baa6;
+    border-radius: 1vh;
+    border-color: transparent;
+}
+.form-contain form input::placeholder{
+    margin: 0;
+    padding-right: 9vh; 
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.5vh;
+    font-weight: 500;
+}
+.img-contain img{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    width: 76vh;
+    height: 61vh;
+    border-radius: 0 2vh 2vh 0;
+}
+
+
+.form-contain form button{
+    justify-content: center;
+    padding: 2vh 3vh;
+    margin: 2vh 30%;
+    margin-top: 2vh;
+    border-radius: 6vh ;
+    font-family: 'Poppins';
+    font-size: large;
+    font-weight: 500;
+    background-color: #a68069;
+    transition: 0.3s ease;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.form-contain form button:hover{
+    background-color: #b4927d;
+}
+
+.form-contain form p,a{
+    display: inline;
+    margin-right: 5px;
+}
+.form-contain form a{
+    text-decoration: none;
+    color: #947664;
+}
